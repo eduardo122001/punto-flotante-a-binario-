@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1651022991 source:d:\c++\conversion de flotante a binario\main.cpp
+	<iostream>
+	<bitset>
+	<math.h>
+
