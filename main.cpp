@@ -92,9 +92,9 @@ int main()
         j--;
     }
     cout<<"Binario flotante(por el programa) de"<<flot<<endl;print_float(flotante);
-    float f=32.72;
+    //float f=32.72;
     cout<<"binario flotante(por c++)"<<endl;
-    print_float(bitset<sizeof f*8>(*(long unsigned int*)(&f)));
+    print_float(bitset<sizeof flot*8>(*(long unsigned int*)(&flot)));
 ///////////////////////////////////////////////////
 
     bitset<1>sign_d;
@@ -165,7 +165,7 @@ int main()
     double d=32.72;
     cout<<"binario flotante(por c++)"<<endl;
     bitset<64>d1=d;
-    print_float(bitset<sizeof d1*8>(*(long unsigned int*)(&d1)));
+    //print_float(bitset<sizeof d1*8>(*(long unsigned int*)(&d1)));
 //////////converison de flotante a doble/////////////////////////
     bitset<64>convertido;
     if(flotante.test(31)){
